@@ -1,0 +1,90 @@
+<gun_01.visual_processed>
+  <node>
+    <identifier>Scene Root</identifier>
+    <transform>
+      <row0>	1.000000 0.000000 0.000000	</row0>
+      <row1>	0.000000 1.000000 0.000000	</row1>
+      <row2>	0.000000 0.000000 1.000000	</row2>
+      <row3>	0.000000 0.000000 0.000000	</row3>
+    </transform>
+    <node>
+      <identifier>nodes_01</identifier>
+      <transform>
+        <row0>	1.000000 0.000000 0.000000	</row0>
+        <row1>	0.000000 1.000000 0.000000	</row1>
+        <row2>	0.000000 0.000000 1.000000	</row2>
+        <row3>	0.000000 0.000000 0.000000	</row3>
+      </transform>
+      <node>
+        <identifier>Gun</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 1.000000 0.000000	</row1>
+          <row2>	0.000000 0.000000 1.000000	</row2>
+          <row3>	0.000000 0.000000 0.000000	</row3>
+        </transform>
+        <node>
+          <identifier>G</identifier>
+          <transform>
+            <row0>	1.000000 0.000000 0.000000	</row0>
+            <row1>	0.000000 1.000000 0.000000	</row1>
+            <row2>	0.000000 0.000000 1.000000	</row2>
+            <row3>	0.000000 0.000000 3.000000	</row3>
+          </transform>
+          <node>
+            <identifier>HP_gunFire</identifier>
+            <transform>
+              <row0>	1.000000 0.000000 0.000000	</row0>
+              <row1>	0.000000 1.000000 0.000000	</row1>
+              <row2>	0.000000 0.000000 1.000000	</row2>
+              <row3>	0.000368 0.004279 1.313510	</row3>
+            </transform>
+          </node>
+          <node>
+            <identifier>Barrel_boneBlendBoneBarrel</identifier>
+            <transform>
+              <row0>	1.000000 0.000000 0.000000	</row0>
+              <row1>	0.000000 1.000000 0.000000	</row1>
+              <row2>	0.000000 0.000000 1.000000	</row2>
+              <row3>	0.000000 0.000000 -3.000000	</row3>
+            </transform>
+          </node>
+        </node>
+        <node>
+          <identifier>Mantlet_boneBlendBoneMantlet</identifier>
+          <transform>
+            <row0>	1.000000 0.000000 0.000000	</row0>
+            <row1>	0.000000 1.000000 0.000000	</row1>
+            <row2>	0.000000 0.000000 1.000000	</row2>
+            <row3>	0.000000 0.000000 0.000000	</row3>
+          </transform>
+        </node>
+      </node>
+    </node>
+  </node>
+  <renderSet>
+    <treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+    <node>Barrel_boneBlendBoneBarrel</node>
+    <geometry>
+      <vertices>Barrel.vertices</vertices>
+      <primitive>Barrel.indices</primitive>
+      <primitiveGroup>	0	<material><identifier>T62A_mat_skinned</identifier><fx>shaders/std_effects/PBS_tank_skinned.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>g_detailUVTiling<Vector4>3.50685 1.75342 0.000000 0.000000</Vector4></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_maskBias<Float>0.22</Float></property><property>g_detailPower<Float>	5	</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property><property>excludeMaskAndAOMap<Texture>vehicles/russian/R87_T62A/T62A_guns_AO.dds</Texture></property><property>	metallicGlossMap	<Texture>vehicles/russian/R87_T62A/T62A_guns_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/russian/R87_T62A/T62A_guns_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/russian/R87_T62A/T62A_guns_AM.dds</Texture></property></material><groupOrigin>	0.037033 0.036486 -2.252599	</groupOrigin></primitiveGroup>
+	  <primitiveGroup>	1	<material><identifier>IS8_mat_skinned</identifier><fx>shaders/std_effects/PBS_tank_skinned.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>g_detailUVTiling<Vector4>4.20822 4.20822 0.000000 0.000000</Vector4></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_maskBias<Float>0.22</Float></property><property>g_detailPower<Float>	5	</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property><property>excludeMaskAndAOMap<Texture>vehicles/russian/R81_IS8/IS8_guns_AO.dds</Texture></property><property>	metallicGlossMap	<Texture>vehicles/russian/R81_IS8/IS8_guns_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/russian/R81_IS8/IS8_guns_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/russian/R81_IS8/IS8_guns_AM.dds</Texture></property><property>alphaTestEnable<Bool>	false	</Bool></property></material><groupOrigin>	0.219814 0.012862 -2.419825	</groupOrigin></primitiveGroup>
+    </geometry>
+  </renderSet>
+  <renderSet>
+    <treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+    <node>Mantlet_boneBlendBoneMantlet</node>
+    <geometry>
+      <vertices>Mantlet.vertices</vertices>
+      <primitive>Mantlet.indices</primitive>
+      <primitiveGroup>	0	<material><identifier>T62A_mat_skinned</identifier><fx>shaders/std_effects/PBS_tank_skinned.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>g_detailUVTiling<Vector4>3.50685 1.75342 0.000000 0.000000</Vector4></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_maskBias<Float>0.22</Float></property><property>g_detailPower<Float>	5	</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property><property>excludeMaskAndAOMap<Texture>vehicles/russian/R87_T62A/T62A_guns_AO.dds</Texture></property><property>	metallicGlossMap	<Texture>vehicles/russian/R87_T62A/T62A_guns_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/russian/R87_T62A/T62A_guns_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/russian/R87_T62A/T62A_guns_AM.dds</Texture></property></material><groupOrigin>	0.037033 0.036486 -2.252599	</groupOrigin></primitiveGroup>
+    </geometry>
+  </renderSet>
+  <constraints>
+  </constraints>
+  <boundingBox>
+    <min>	-0.217129 -0.189182 -0.107671	</min>
+    <max>	0.291196 0.262154 4.612868	</max>
+  </boundingBox>
+</gun_01.visual_processed>
