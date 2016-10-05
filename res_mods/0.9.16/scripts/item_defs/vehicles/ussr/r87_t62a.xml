@@ -198,7 +198,7 @@
         <dust>largeTankDust</dust>
         <mud>	largeTankMud	</mud>
       </effects>
-      <wwsoundPC>trds_med_pc</wwsoundPC>
+      <wwsoundPC>treads_type_pc</wwsoundPC>
       <wwsoundNPC>trds_med_npc</wwsoundNPC>
       <hullPosition>	0.000000 0.994263 0.000000	</hullPosition>
       <hitTester>
@@ -479,14 +479,14 @@
       </hitTester>
       <gunPosition>0.000000 0.223044 1.07662</gunPosition>
       <emblemSlots>
-        <player> <!-- LEFT SIDE -->
+        <player>
           <rayStart>-1.40265 0.446068 0.892701</rayStart>
           <rayEnd>-1.23367 0.380142 0.808435</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.26</size>
           <hideIfDamaged>	false	</hideIfDamaged>
         </player>
-        <inscription> <!-- LEFT SIDE -->
+        <inscription>
           <rayStart>-1.45265 0.426068 0.392701</rayStart>
           <rayEnd>-1.28367 0.360142 0.308435</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -528,17 +528,52 @@
   <radios>
     <R123>shared</R123>
   </radios>
+  <physics>
+    <detailed>
+      <engines>
+        <V-55>
+          <smplEnginePower>613.2231</smplEnginePower>
+        </V-55>
+      </engines>
+      <chassis>
+        <Chassis_T62A>
+          <grounds>
+            <ground>
+              <medium>
+                <rollingFriction>0.0483</rollingFriction>
+              </medium>
+            </ground>
+            <sand>
+              <medium>
+                <rollingFriction>0.0483</rollingFriction>
+              </medium>
+            </sand>
+            <wood>
+              <medium>
+                <rollingFriction>0.0483</rollingFriction>
+              </medium>
+            </wood>
+            <snow>
+              <medium>
+                <rollingFriction>0.0483</rollingFriction>
+              </medium>
+            </snow>
+            <stone>
+              <medium>
+                <rollingFriction>0.0483</rollingFriction>
+              </medium>
+            </stone>
+            <metal>
+              <medium>
+                <rollingFriction>0.0483</rollingFriction>
+              </medium>
+            </metal>
+          </grounds>
+        </Chassis_T62A>
+      </chassis>
+    </detailed>
+  </physics>
   <clientAdjustmentFactors>
-    <chassis>
-      <Chassis_T62A>
-        <alpha>0.0483</alpha>
-      </Chassis_T62A>
-    </chassis>
-    <engines>
-      <V-55>
-        <bravo>153.3058</bravo>
-      </V-55>
-    </engines>
     <armour>1.253004391</armour>
   </clientAdjustmentFactors>
   <effects>
