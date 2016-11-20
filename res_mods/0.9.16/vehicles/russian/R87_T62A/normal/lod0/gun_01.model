@@ -1,0 +1,10 @@
+<gun_01.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>	-0.217129 -0.189182 -0.107671	</min>
+    <max>0.291196 0.262154 4.61287</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/russian/R87_T62A/normal/lod0/Gun_01</nodefullVisual>
+</gun_01.model>

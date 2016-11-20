@@ -1,0 +1,10 @@
+<hull.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.70745 -0.597122 -3.4358</min>
+    <max>1.70742 0.594766 3.27077</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/russian/R87_T62A/normal/lod0/Hull</nodefullVisual>
+</hull.model>
